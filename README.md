@@ -70,7 +70,10 @@ This repository contains Terraform scripts to deploy infrastructure in AWS for a
 - **`route-tables.tf`**: Defines route table within the VPC. 
 - **`security-groups.tf`**:  Defines the security groups within the VPC. 
 - **`subnets.tf`**:  Defines the subnets within the VPC.
-- **`key-pairs.tf`**:  Defines key-pairs used for EC2 instances authentication. 
+- **`key-pairs.tf`**:  Defines key-pairs used for EC2 instances authentication.
+- **`eip.tf`**:  Defines elastic IPs used in the configuration.
+- **`app_config.sf`**:  Init bash script used for app server basic configuration.
+- **`agent_config.sf`**:  Init bash script used for agent basic configuration. 
 
 ## Notes
 - Customize the `variables.tf` file as per project requirements.
